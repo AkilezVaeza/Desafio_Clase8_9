@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: bisque;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(122, 8, 8);
+    color: white;
+}
+
+.parrafo{
+    margin: 10px;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productosEstilos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 1rem auto;
+    
+}
+
+.btns{
+    justify-content: center;
+}
